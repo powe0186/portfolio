@@ -55,9 +55,8 @@ main {
 #left-bar {
     display: flex;
     flex-direction: column;
-    height: 100vp;
     background-color: #77a5bf;
-    width: 300px;
+    width: 20%;
     height: 1000px;
     border: solid 2px #365f77;
 }
@@ -76,4 +75,52 @@ main {
     margin-top: 20px;
     line-height: 40px;
     color: white;
+}
+
+#right-side {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+
+#about-me {
+    display: block;
+    border: 3px
+    border-radius: 3px solid black;
+    border-radius: 10px;
+    margin: 50px;
+    background-color: #77a5bf;
+}
+
+#about-me h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+#about-me p {
+    color: white;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    display: block;
+    min-width: 200px;
+    height: 150px;
+    border: 5px solid black;
+    border-radius: 10px;
+
 }
