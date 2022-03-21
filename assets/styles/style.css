@@ -55,7 +55,7 @@ main {
 #left-bar {
     display: flex;
     flex-direction: column;
-    background-color: #77a5bf;
+    background-image: linear-gradient(to bottom right, #2f5164, #89c0e0);
     width: 20%;
     height: 1000px;
     border: solid 2px #365f77;
@@ -77,6 +77,10 @@ main {
     color: white;
 }
 
+#left-bar a:hover {
+    color: navy;
+}
+
 #right-side {
     display: flex;
     flex-direction: column;
@@ -84,6 +88,14 @@ main {
     background-image: url(../images/background.jpg);
     background-size: cover;
     height: 1000px;
+}
+
+#right-side h2 {
+    font-size: 2rem;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 #about-me {
@@ -133,6 +145,7 @@ main {
     border: 5px solid black;
     border-radius: 10px;
     opacity: 0.6;
+    background-size: cover;
 }
 
 .card:hover {
@@ -142,5 +155,8 @@ main {
 
 #card-1 {
     background-image: url(../images/catan.jpg);
-    background-size: cover;
+}
+
+#card-2 {
+    background-image: url(../images/refactor_Assignment.PNG);
 }
