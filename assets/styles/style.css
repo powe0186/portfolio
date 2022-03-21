@@ -124,6 +124,13 @@ main {
     margin: 20px;
 }
 
+/* a shorter about me that is not shown on larger screens. */
+
+#short-about-me {
+    display: none;
+    padding: 10px;
+}
+
 /* Each card with project examples. Set up in a flex-wrapped flex-box. aligned flex-end so that the  */
 /* boxes themselves line up. The descriptions are above the boxes so they aren't opaque. */
 /* boxes become opaque on hover. */
@@ -200,7 +207,17 @@ main {
         height: 520px;
     }
 
-    #about-me {
+    /* Make the about me smaller and show a shorter version of the about me. */
+    #about-me h2 {
+        font-size: 1rem;
+    }
+    
+    #short-about-me {
+        display: inline;
+    }
+
+    /* Make the longer paragraphs about me disappear. */
+    .long-about-me {
         display: none;
     }
 
