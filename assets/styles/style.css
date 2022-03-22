@@ -8,7 +8,7 @@ body {
 }
 
 /* The header  - dark blue with my name large on the left and relevant links on the right.*/
-header {
+header, footer {
     background-color: rgb(6 48 73);
     color: white;
     display: flex;
@@ -178,8 +178,26 @@ main {
     background-image: url(../images/refactor_Assignment.PNG);
 }
 
+#card-3 {
+    background-image: url(../images/PW_generator.PNG);
+}
+
+/* More cards to add later
+
+#card-4 {
+    background-image: url();
+}
+
+#card-5 {
+    background-image: url();
+}
 
 
+#card-6 {
+    background-image: url();
+}
+
+*/
 
 
 /* Media Queries */
