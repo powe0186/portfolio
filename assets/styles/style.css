@@ -185,22 +185,26 @@ main {
     background-image: url(../images/PW_generator.PNG);
 }
 
-/* More cards to add later
 
 #card-4 {
-    background-image: url();
+    background-image: url(../images/DailySchedule.png);
 }
 
 #card-5 {
-    background-image: url();
+    background-image: url(../images/Weather.png);
 }
 
 
 #card-6 {
-    background-image: url();
+    background-image: url(../images/Bookworm.PNG);
 }
 
-*/
+#card-7 {
+    background-image: url(../images/logo.png);
+}
+
+
+/* More cards to add later
 
 
 /* Media Queries */
