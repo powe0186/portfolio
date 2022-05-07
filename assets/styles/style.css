@@ -203,6 +203,21 @@ main {
     background-image: url(../images/logo.png);
 }
 
+#card-8 {
+    background-image: url(../images/ecomBackend.png);
+}
+
+#card-9 {
+    background-image: url(../images/emplMan.png);
+}
+
+#card-10 {
+    background-image: url(../images/teamManagement.PNG);
+}
+
+#card-11 {
+    background-image: url(../images/BootcapForum.png);
+}
 
 /* More cards to add later
 
